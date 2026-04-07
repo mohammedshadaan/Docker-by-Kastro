@@ -60,3 +60,25 @@ Docker Compose: Developers can use Docker Compose to manage multicontainer appli
 								Connect with me on LinkedIn: https://www.linkedin.com/in/kastro-kiran/
 ****************************************************************************************************************************
 
+
+Core Components
+Docker Host: The machine (physical or virtual) where Docker runs.
+Docker Engine: The main software that runs containers. It includes:
+Docker Daemon: The backend service that builds and manages images and containers.
+Docker API & CLI (Client): The interface developers use to communicate with the daemon.
+Key Concepts
+Docker Images: Read-only templates containing app code, libraries, and dependencies.
+Docker Containers: Running instances of images; they are lightweight, temporary, and executable.
+Docker Objects: Resources like images, containers, networks, and volumes used in Docker.
+How It Works
+Developers create images (often using a Dockerfile) or pull them from repositories.
+Images are built in layers, making them reusable and efficient.
+When an image runs, it becomes a container, adding a temporary writable layer.
+Tools & Ecosystem
+Dockerfile: A script with instructions to build an image.
+Docker Build: Command used to create images from a Dockerfile.
+Docker Hub / Registry: Online repositories to store and share Docker images.
+Docker Desktop: All-in-one app for running Docker on Windows/Mac.
+Docker Compose: Tool to run multi-container apps using a YAML configuration file.
+Plugins & Extensions: Add extra features and integrations to Docker.
+
